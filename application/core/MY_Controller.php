@@ -27,7 +27,6 @@ class BATCH_Controller extends CI_Controller {
         $this->load->model("sendmail_model");
         $this->sendmail_model->set_to($this->viewVar['config']['mail']['to']);
         $this->sendmail_model->set_from($this->viewVar['config']['mail']['from']);
-
     }
     /**
      * メイン処理等を呼び出す（テンプレートメソッド）

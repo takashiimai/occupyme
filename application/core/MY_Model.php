@@ -6,6 +6,7 @@ class FRONT_Model extends CI_Model {
 
     public function __construct() {
         parent::__construct();
+        $this->viewVar['login'] = $this->session->userdata('login');
     }
 }
 
@@ -31,7 +32,7 @@ class DB_Model extends CI_Model {
 
     /**
      * テーブルの全件数を返却する
-     * @param 
+     * @param
      * @return integer  件数
      */
     public function get_found_rows() {
@@ -40,7 +41,7 @@ class DB_Model extends CI_Model {
 
     /**
      * autoincrement IDを返却する
-     * @param 
+     * @param
      * @return integer  件数
      */
     public function get_last_insert_id() {
@@ -49,9 +50,9 @@ class DB_Model extends CI_Model {
 
     /**
      * テーブルデータ件数
-     * @param   
-     * @param   
-     * @return  
+     * @param
+     * @param
+     * @return
      */
     public function select_count() {
         $res = $this->db->query("SELECT COUNT(id) AS count FROM " . $this->tbl);
@@ -66,9 +67,9 @@ class DB_Model extends CI_Model {
 
     /**
      * テーブルデータ削除
-     * @param   
-     * @param   
-     * @return  
+     * @param
+     * @param
+     * @return
      */
     public function truncate() {
         $this->db->query("TRUNCATE TABLE " . $this->tbl);
@@ -208,7 +209,7 @@ class DB_Model extends CI_Model {
                     $binds,
                     'COALESCE(MAX(orderby)+1, 1)',
                     $tbl,
-                    ($cond == NULL ? '1' : $cond), 
+                    ($cond == NULL ? '1' : $cond),
                     ($cond == NULL ? '1' : $params[ $cond ]),
                     DATA_VALID
                );
@@ -316,7 +317,7 @@ class DB_Model extends CI_Model {
      * ２つのページの表示順を入れ変える
      * @param array
      * @param array
-     * @return 
+     * @return
      */
     protected function swap_orderby($page, $other) {
 

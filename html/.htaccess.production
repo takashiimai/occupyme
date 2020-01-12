@@ -1,0 +1,7 @@
+SetEnv ENVIRONMENT production
+SetEnv SYSTEM_PATH /home/maitakajp/www/occupyme.maitakajp.com/system
+SetEnv APPLICATION_PATH /home/maitakajp/www/occupyme.maitakajp.com/application
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|lib|files|assets|images|js|css|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ /index.php/$1 [L]

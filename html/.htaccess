@@ -1,4 +1,4 @@
-SetEnv ENVIRONMENT production
+SetEnv ENVIRONMENT local
 SetEnv SYSTEM_PATH /var/www/share/occupyme/system
 SetEnv APPLICATION_PATH /var/www/share/occupyme/application
 

@@ -4,7 +4,7 @@
  * DATE Timezone
  *---------------------------------------------------------------
  */
-    date_default_timezone_set('Asia/Tokyo'); 
+    date_default_timezone_set('Asia/Tokyo');
 
 /*
  *---------------------------------------------------------------
@@ -40,10 +40,10 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
+		case 'local':
 			error_reporting(E_ALL);
 		break;
-	
-		case 'testing':
+
 		case 'production':
 		break;
 

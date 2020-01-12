@@ -1,8 +1,8 @@
-<div class="pure-g">
- <div class="pure-u-1-8"><a href="/top"><img src="/images/occuptme.png"></a></div>
- <div class="pure-u-5-8"></div>
- <div class="pure-u-1-8 default"><a href="/top/faq"></a></div>
- <div class="pure-u-1-8 default" style="text-align:right;"><a class="pure-button pure-button-primary" href="/member/login"><?= $this->session->userdata('login') ? 'マイページ' :  'ログイン'?></a></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 text-left px-0"><a href="/top"><img src="/images/occuptme.png"></a></div>
+        <div class="col-6 text-right px-0"><a class="btn btn-primary rounded-0" href="/member/login"><?= $login ? 'マイページ' :  'ログイン'?></a></div>
+    </div>
 </div>
 
 <script type="text/javascript">

@@ -1,0 +1,5 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+INFO  - 2014-08-07 21:55:56 --> [FILE:buy_model.php , LINE:28 , FUNC:do_index] refferer: 
+INFO  - 2014-08-07 22:03:12 --> [FILE:buy_model.php , LINE:28 , FUNC:do_index] refferer: 
+INFO  - 2014-08-17 16:00:27 --> [FILE:affiliate_model.php , LINE:109 , FUNC:do_vip] refferer: 

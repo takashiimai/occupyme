@@ -1,0 +1,37 @@
+<div class="pure-g">
+ <div class="pure-u-1-8"><a href="/top"><img src="/images/occuptme.png"></a></div>
+ <div class="pure-u-5-8"></div>
+ <div class="pure-u-1-8 default"><a href="/top/faq"></a></div>
+ <div class="pure-u-1-8 default" style="text-align:right;"><a class="pure-button pure-button-primary" href="/member/login"><?= $this->session->userdata('login') ? 'マイページ' :  'ログイン'?></a></div>
+</div>
+
+<script type="text/javascript">
+
+function login() {
+    $.Zebra_Dialog('', {
+        'message':
+' <form class="pure-form pure-form-aligned" action="/affiliate/post" method="POST">' +
+'    <fieldset>' +
+'        <div class="pure-control-group">' +
+'            <label class="pure-input-1-3" for="email">メールアドレス</label>' +
+'            <input class="pure-input-2-3" id="email" name="email" placeholder="Email Address" required>' +
+'        </div>' +
+'        <div class="pure-control-group">' +
+'            <label class="pure-input-1-3" for="password">パスワード</label>' +
+'            <input class="pure-input-2-3" id="password" name="password" placeholder="Password" required>' +
+'        </div>' +
+'        <div class="pure-controls">' +
+'            <button type="submit" class="pure-button pure-button-primary">送信</button>' +
+'        </div>' +
+'    </fieldset>' +
+'</form>',
+        'type':                     false,
+        'buttons':                     false,
+        'animation_speed_hide':     0 ,
+        'animation_speed_show':     0 ,
+        'max_height':               200,
+        'width':                    650,
+        'title':                    'Login Dialog',
+    });
+}
+</script>

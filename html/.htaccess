@@ -1,7 +1,0 @@
-SetEnv ENVIRONMENT local
-SetEnv SYSTEM_PATH /var/www/share/occupyme/system
-SetEnv APPLICATION_PATH /var/www/share/occupyme/application
-
-RewriteEngine on
-RewriteCond $1 !^(index\.php|lib|files|assets|images|js|css|robots\.txt|favicon\.ico)
-RewriteRule ^(.*)$ /index.php/$1 [L]

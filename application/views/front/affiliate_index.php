@@ -1,58 +1,47 @@
-<p class="menuTabLight" style="font-size:26px; text-align:left;">会員登録</p>
-
-メールアドレスとパスワードを入力してください。<br>
-<br>
-
-<form class="pure-form pure-form-aligned" action="/affiliate/post" method="POST">
-    <fieldset>
-        <div class="pure-control-group">
-            <label class="pure-input-1-3" for="email">メールアドレス</label>
-            <input class="pure-input-1-3" id="email" name="email" value="<?= set_value('email'); ?>" required>
-            <span style="color:#ff0000"><?= form_error('email'); ?></span>
+<div class="container">
+    <div class="row">
+        <p class="col-12 offset-lg-2 col-lg-8 menuTabLight title mt-5">リンク会員登録</p>
+        <div class="col-12 text-center my-3">
+            メールアドレスとパスワードを入力してください。<br>
+            なお当システムからメールをお送りしますため<br>「occupy.maitakajp.com ドメイン」<br>からのメールを受信できるようご設定ください。
         </div>
+        <div class="col-12 row">
+            <div class="col-12 offset-lg-3 col-lg-6">
+                <form class="" action="/affiliate/post" method="POST">
+                    <div class="form-group row">
+                        <label class="col-12 col-lg-4 text-right" for="email">メールアドレス</label>
+                        <input class="form-control col-12 col-lg-6" id="email" name="email" value="<?= set_value('email'); ?>" required>
+                        <small class="offset-lg-4 form-text text-danger"><?= form_error('email'); ?></small>
+                    </div>
 
-        <div class="pure-control-group">
-            <label for="password">パスワード</label>
-            <input class="pure-input-1-3" id="passwd" name="passwd" value="<?= set_value('passwd'); ?>" required>
-            <span style="color:#ff0000"><?= form_error('passwd'); ?></span>
+                    <div class="form-group row">
+                        <label class="col-12 col-lg-4 text-right" for="password">パスワード</label>
+                        <input class="form-control col-12 col-lg-6" id="passwd" name="passwd" value="<?= set_value('passwd'); ?>" required>
+                        <small class="offset-lg-4 form-text">※4〜32文字で入力してください</small>
+                        <small class="offset-lg-4 form-text text-danger"><?= form_error('passwd'); ?></small>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12 text-center">
+                            <input type="submit" class="btn btn-primary col-12 col-lg-3" onClick="disp()" value="送信">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-
-        <div class="pure-control-group">
-            <label for="option-one" class="pure-radio">
-                <input  id="option-one" type="radio" name="dummy" value="VIP" <?= strlen($this->session->userdata('buy_auth')) ? 'checked' : 'disabled'; ?>> VIP会員（報酬1件につき10,000円）
-            </label>
-            <label for="option-two" class="pure-radio">
-                <input id="option-two" type="radio" name="dummy" value="一般" <?= strlen($this->session->userdata('buy_auth')) ? 'disabled' : 'checked'; ?>> 一般会員（報酬1件につき2,000円）
-            </label>
+        <p class="col-12 offset-lg-2 col-lg-8 menuTabLight title mt-5">アフィリエイト参加方法</p>
+        <div class="offset-lg-2 col-12 col-lg-8">
+            <div>
+                1. 上記のフォームより会員登録が完了しますと、あなた専用のアフィリエイト用リンクタグが生成されます。
+            </div>
+            <div>
+                2. アフィリエイト用リンクタグをTwitterやFacebook、ブログや掲示板に投稿してください。
+            </div>
+            <div>
+                3. アフィリエイト用リンクタグ経由でオリジナルグッズが販売されますと成果報酬となります。なお、リンク会員の場合、成果報酬は10,000円となります。
+            </div>
         </div>
-
-<div style="font-size:10px; color:#ff0000; margin:30px 0 30px 0">
-※VIP会員での登録にはOccupyMeグッズの購入が必要です。<br>
-※ブラウザおよびブラウザ設定によっては、商品を購入いただいてもVIP会員が選択できない場合がございます。<br>
-　その場合は、下記に購入時のお名前を入力してください。<br>
+    </div>
 </div>
-
-        <div class="pure-control-group">
-            <label class="pure-input-1-3" for="email">購入時のお名前</label>
-            <input class="pure-input-1-3" id="email" name="name"  value="">
-            <span style="color:#ff0000"><?= form_error('name'); ?></span>
-        </div>
-
-        <div class="pure-controls">
-            <button type="submit" class="pure-button pure-button-primary" onClick="disp()">送信</button>
-        </div>
-    </fieldset>
-</form>
-
-<br><br>
-
-<p class="menuTabLight" style="font-size:26px; text-align:left;">ご注意</p>
-
-<ul style="text-align:left; margin:0 0 0 50px;">
-  <li>会員タイプには「一般会員」と「VIP会員」の2種類がございます。</li>
-  <li>会員タイプ「一般会員」は、成果報酬は1件あたり2,000円となります。</li>
-  <li>会員タイプ「VIP会員」は、Occupy Me グッズを購入いただいた方が対象となり、成果報酬は1件あたり10,000円となります。</li>
-</ul>
 
 <script type="text/javascript">
 <!--

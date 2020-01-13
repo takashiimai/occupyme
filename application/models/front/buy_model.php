@@ -6,7 +6,7 @@ class Buy_model extends FRONT_Model {
 		'7fc56270e7a70fa81a5935b72eacbe29',
 	);
 
-	
+
     /**
      * construct
      * @param

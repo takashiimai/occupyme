@@ -15,6 +15,11 @@ BODY .default {
     color: #fff !important;
 }
 
+p.title {
+    font-size:26px;
+    text-align:left;
+}
+
 .frame {
     position: relative;
     display: inline-block;
@@ -108,7 +113,6 @@ h4:before {
 }
 
 .menuTabLight {
-	margin:50px 50px 50px 50px;
 	padding:2px 8px;
 	border-width:0 0 0 5px;
 	border-color:#029EBC;

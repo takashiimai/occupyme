@@ -115,7 +115,7 @@ class Mypage_model extends FRONT_Model {
             $this->viewVar['purchase_total_normal'] = $result['normal'];
             $this->viewVar['purchase_total_vip'] = $result['vip'];
         }
-        
+
 
         // 出金可能額
         $this->load->model('db/purchase_model');
@@ -180,53 +180,58 @@ class Mypage_model extends FRONT_Model {
 
             $config = array(
                 array(
-                 'field'   => 'id', 
-                 'label'   => 'ID', 
+                 'field'   => 'id',
+                 'label'   => 'ID',
                  'rules'   => 'trim',
                 ),
                 array(
-                 'field'   => 'email', 
-                 'label'   => 'メールアドレス', 
+                 'field'   => 'email',
+                 'label'   => 'メールアドレス',
                  'rules'   => 'required|valid_email|max_length[255]',
                 ),
                 array(
-                 'field'   => 'passwd', 
-                 'label'   => 'パスワード', 
+                 'field'   => 'passwd',
+                 'label'   => 'パスワード',
                  'rules'   => 'required|min_length[4]|max_length[32]',
                 ),
                 array(
-                 'field'   => 'bank', 
-                 'label'   => '銀行名', 
+                 'field'   => 'bank',
+                 'label'   => '銀行名',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'bank_kana', 
-                 'label'   => '銀行名（ひらがな）', 
+                 'field'   => 'bank_kana',
+                 'label'   => '銀行名（ひらがな）',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'branch', 
-                 'label'   => '支店名', 
+                 'field'   => 'branch',
+                 'label'   => '支店名',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'branch_kana', 
-                 'label'   => '支店名（ひらがな）', 
+                 'field'   => 'branch_kana',
+                 'label'   => '支店名（ひらがな）',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'account_type', 
-                 'label'   => '預金種別', 
+                 'field'   => 'account_type',
+                 'label'   => '預金種別',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'account', 
-                 'label'   => '口座番号', 
+                 'field'   => 'account',
+                 'label'   => '口座番号',
                  'rules'   => 'trim|htmlspecialchars|max_length[255]',
                 ),
                 array(
-                 'field'   => 'vip_flg', 
-                 'label'   => '口座番号', 
+                 'field'   => 'member_type',
+                 'label'   => '会員タイプ',
+                 'rules'   => 'trim',
+                ),
+                array(
+                 'field'   => 'name',
+                 'label'   => '名義',
                  'rules'   => 'trim',
                 ),
             );
@@ -246,6 +251,7 @@ class Mypage_model extends FRONT_Model {
                     'branch_kana'    => $this->input->post('branch_kana'),
                     'account_type'   => $this->input->post('account_type'),
                     'account'        => $this->input->post('account'),
+                    'name'           => $this->input->post('name'),
                 );
                 $this->member_model->update_by_id($params);
 

@@ -135,9 +135,7 @@ class DB_Model extends CI_Model {
     public function update_by_id($params, $tbl = NULL) {
         $tbl = empty($tbl) ? $this->tbl : $tbl;
 
-        // regist_date, regist_user_id は念のため削除する
-        //if (isset($params['regist_date'])) unset($params['regist_date']);
-        //if (isset($params['regist_user_id'])) unset($params['regist_user_id']);
+        $params['update_date'] = date("Y-m-d H:i:s");
 
         // クエリー作成
         $query = $this->db->update_string($tbl, $params, 'id = '.$params['id']);
@@ -161,8 +159,8 @@ class DB_Model extends CI_Model {
         if (isset($params['id'])) unset($params['id']);
 
         // 新規追加時は、regist_dateはNULLにする
-        $params['create_date'] = NULL;
-//        $params['update_date'] = NULL;
+        $params['create_date'] = date("Y-m-d H:i:s");
+        $params['update_date'] = date("Y-m-d H:i:s");
 
         // クエリー作成
         $query = $this->db->insert_string($tbl, $params);

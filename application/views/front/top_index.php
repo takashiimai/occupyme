@@ -19,6 +19,11 @@
             </h1>
         </div>
 
+        <div class="offset-lg-3 col-12 col-lg-6 alert alert-primary">
+            下記オリジナルグッズをご購入いただいた場合、アフィリエイト報酬は、な、な、なんと、50,000円！！
+            奮ってご参加ください。参加手順は<a href="">こちら</a>。
+        </div>
+
         <div class="offset-lg-3 col-6 col-lg-3">
             <div class="card img-thumbnail">
                 <img data-action="popup" class="img-responsive img-thumbnail pointer" src="/images/item_keyholder.jpg">
@@ -28,7 +33,7 @@
                     <p class="card-text">
                         価格：100,000円（税込）
                     </p>
-                    <p class="mb-0 text-center"><a href="#" class="btn btn-primary btn-sm">購入に進む</a></p>
+                    <p class="mb-0 text-center"><a href="/purchase/keyholder" class="btn btn-primary btn-sm">購入画面に進む</a></p>
                 </div>
             </div>
         </div>
@@ -42,19 +47,20 @@
                     <p class="card-text">
                         価格：100,000円（税込）
                     </p>
-                    <p class="mb-0 text-center"><a href="#" class="btn btn-primary btn-sm">購入に進む</a></p>
+                    <p class="mb-0 text-center"><a href="/purchase/badge" class="btn btn-primary btn-sm">購入画面に進む</a></p>
                 </div>
             </div>
         </div>
 
-        <div class="offset-lg-3 col-12 col-lg-6 alert alert-primary mt-5">
-            上記のオリジナルグッズをご購入いただきますと、アフィリエイトに参加いただけます。
-            アフィリエイト報酬は、な、な、なんと、50,000円！！
-            奮ってご参加ください。参加手順は<a href="">こちら</a>。
+<?php if (!isset($login) || !$login): ?>
+        <div class="offset-lg-3 col-12 col-lg-6 alert alert-warning text-center mt-5">
+            購入せずにアフィリエイトに参加する場合は下記よりご参加ください
         </div>
-
-
-
+        <div class="offset-lg-3"></div>
+        <div class="col-12 text-center">
+            <a href="/affiliate" class="btn btn-warning">リンク会員として<br>アフィリエイトに参加する</a>
+        </div>
+<?php endif; ?>
     </div>
 </div>
 

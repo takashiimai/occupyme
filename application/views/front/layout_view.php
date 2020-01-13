@@ -4,19 +4,19 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Occupy Me</title>
 
     <meta name="format-detection" content="telephone=no">
-    <meta name="keywords" content="" />
-    <meta name="description" content="">
+    <meta name="keywords" content="彼氏,彼女,恋人,募集,応援,アフィリエイト,プログラム" />
+    <meta name="description" content="Occupy Meは彼氏・彼女を探している人を応援している組織です">
     <meta name="author" content="imai" >
-    <meta property="og:site_name" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <meta property="og:site_name" content="Occupy Me" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<?= current_url(); ?>" />
+    <meta property="og:title" content="Occupy Me" />
+    <meta property="og:description" content="Occupy Meは彼氏・彼女を探している人を応援している組織です" />
+    <meta property="og:image" content="https://occupyme.maitakajp.com/images/logo/logo_3.png" />
+    <meta property="og:image:alt" content="Occupy Me" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">

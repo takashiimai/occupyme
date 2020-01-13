@@ -53,12 +53,12 @@
         </div>
 
 <?php if (!isset($login) || !$login): ?>
-        <div class="offset-lg-3 col-12 col-lg-6 alert alert-warning text-center mt-5">
+        <div class="offset-lg-3 col-12 col-lg-6 alert alert-info text-center mt-5">
             購入せずにアフィリエイトに参加する場合は下記よりご参加ください
         </div>
         <div class="offset-lg-3"></div>
         <div class="col-12 text-center">
-            <a href="/affiliate" class="btn btn-warning">リンク会員として<br>アフィリエイトに参加する</a>
+            <a href="/affiliate" class="btn btn-primary">リンク会員として<br>アフィリエイトに参加する</a>
         </div>
 <?php endif; ?>
     </div>

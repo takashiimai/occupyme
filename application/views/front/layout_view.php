@@ -30,6 +30,20 @@
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+
+<?php if (ENVIRONMENT == 'production') : ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147235219-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147235219-3');
+</script>
+<script data-ad-client="ca-pub-7141035308268908" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<?php endif; ?>
+
 </head>
 
 <?= $content_header; ?>

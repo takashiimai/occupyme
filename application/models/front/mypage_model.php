@@ -45,11 +45,29 @@ class Mypage_model extends FRONT_Model {
         front_layout_view('mypage_index', $this->viewVar);
     }
 
+    /**
+     * purchase 用モデル
+     * @param
+     * @return boolean チェック結果
+     */
+    public function do_purchase() {
+        $params = array(
+            $this->user['id'],
+        );
+        $sql  = 'SELECT * FROM purchase ';
+        $sql .= 'WHERE member_id = ? ';
+        $sql .= 'ORDER BY create_date DESC ';
+        $res = $this->db->query($sql, $params);
+        $result = $res->result_array();
+
+        $this->viewVar['items'] = $result;
+        front_layout_view('mypage_purchase', $this->viewVar);
+    }
+
     public function do_report() {
-        $year = $this->input->post('year');
-        $month = $this->input->post('month');
+        $year = $this->input->post('year') ? $this->input->post('year') : date("Y");
+        $month = $this->input->post('month') ? $this->input->post('month') : date("m");
         if ($year > 0 && $month > 0) {
-            $this->load->model('db/db_access_model');
 
             // 当月LPアクセス集計
             $this->viewVar['access'] = 0;
@@ -66,7 +84,6 @@ class Mypage_model extends FRONT_Model {
             }
 
             // 当月売り上げ件数
-            $this->load->model('db/db_purchase_model');
             $this->viewVar['purchase_normal'] = 0;
             $this->viewVar['purchase_vip'] = 0;
             $params = array(
@@ -76,7 +93,7 @@ class Mypage_model extends FRONT_Model {
             $sql  = 'SELECT count( CASE WHEN fee=0 THEN 1 ELSE null END ) as normal, ';
             $sql .= 'count( CASE WHEN fee=1 THEN 1 ELSE null END ) as vip ';
             $sql .= 'FROM purchase ';
-            $sql .= 'WHERE affiliate_auth = ? AND create_date LIKE ? ';
+            $sql .= 'WHERE affiliate_auth = ? AND create_date LIKE ? AND pay_flg = 1 ';
             $res = $this->db->query($sql, $params);
             if ($res->num_rows() > 0) {
                 $result = $res->row_array();
@@ -108,7 +125,7 @@ class Mypage_model extends FRONT_Model {
         $sql  = 'SELECT count( CASE WHEN fee=0 THEN 1 ELSE null END ) as normal, ';
         $sql .= 'count( CASE WHEN fee=1 THEN 1 ELSE null END ) as vip ';
         $sql .= 'FROM purchase ';
-        $sql .= 'WHERE affiliate_auth = ? ';
+        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = 1 ';
         $res = $this->db->query($sql, $params);
         if ($res->num_rows() > 0) {
             $result = $res->row_array();
@@ -118,17 +135,15 @@ class Mypage_model extends FRONT_Model {
 
 
         // 出金可能額
-        $this->load->model('db/db_purchase_model');
         $this->viewVar['payable_normal'] = 0;
         $this->viewVar['payable_vip'] = 0;
         $params = array(
             $this->user['affiliate_auth'],
-            0,
         );
         $sql  = 'SELECT count( CASE WHEN fee=0 THEN 1 ELSE null END ) as normal, ';
         $sql .= 'count( CASE WHEN fee=1 THEN 1 ELSE null END ) as vip ';
         $sql .= 'FROM purchase ';
-        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = ? ';
+        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = 1 AND status = 0 ';
         $res = $this->db->query($sql, $params);
         if ($res->num_rows() > 0) {
             $result = $res->row_array();
@@ -137,17 +152,15 @@ class Mypage_model extends FRONT_Model {
         }
 
         // 出金依頼額
-        $this->load->model('db/db_purchase_model');
         $this->viewVar['requestpay_normal'] = 0;
         $this->viewVar['requestpay_vip'] = 0;
         $params = array(
             $this->user['affiliate_auth'],
-            1,
         );
         $sql  = 'SELECT count( CASE WHEN fee=0 THEN 1 ELSE null END ) as normal, ';
         $sql .= 'count( CASE WHEN fee=1 THEN 1 ELSE null END ) as vip ';
         $sql .= 'FROM purchase ';
-        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = ? ';
+        $sql .= 'WHERE affiliate_auth = ? AND status = 1 ';
         $res = $this->db->query($sql, $params);
         if ($res->num_rows() > 0) {
             $result = $res->row_array();
@@ -159,16 +172,10 @@ class Mypage_model extends FRONT_Model {
         $params = array(
             $this->user['affiliate_auth'],
         );
-        $sql  = 'SELECT count(*) AS count FROM request ';
+        $sql  = 'SELECT * FROM request ';
         $sql .= 'WHERE affiliate_auth = ? AND complete_date IS NULL ';
         $res = $this->db->query($sql, $params);
-        if ($res->num_rows() > 0) {
-            $result = $res->row_array();
-            if ($result['count'] > 0)
-	            $this->viewVar['request'] = TRUE;		// 出金依頼中
-			else
-	            $this->viewVar['request'] = FALSE;		// 出金依頼無し
-        }
+        $this->viewVar['request'] = $res->row_array();
 
         front_layout_view('mypage_report', $this->viewVar);
     }
@@ -269,27 +276,26 @@ class Mypage_model extends FRONT_Model {
     }
 
     public function do_request() {
+        $this->load->model('db/db_request_model');
+
         // 出金可能額
         $money = 0;
-        $this->load->model('db/db_purchase_model');
         $params = array(
             $this->user['affiliate_auth'],
-            0,
         );
         $sql  = 'SELECT count( CASE WHEN fee=0 THEN 1 ELSE null END ) as normal, ';
         $sql .= 'count( CASE WHEN fee=1 THEN 1 ELSE null END ) as vip ';
         $sql .= 'FROM purchase ';
-        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = ? ';
+        $sql .= 'WHERE affiliate_auth = ? AND pay_flg = 1 AND status = 0 ';
         $res = $this->db->query($sql, $params);
         if ($res->num_rows() > 0) {
             $result = $res->row_array();
-            $money = $result['normal'] * 2000 + $result['vip'] * 10000;
+            $money = $result['normal'] * 10000 + $result['vip'] * 50000;
         }
-        if ($money < 30000) {
+        if ($money < 50000) {
             $this->viewVar['error'] = "出金可能金額に達していません。";
         } else {
             // 登録
-            $this->load->model('db/db_request_model');
 
             $this->db->trans_start();
 
@@ -300,7 +306,7 @@ class Mypage_model extends FRONT_Model {
             );
             $this->db_request_model->insert($params);
 
-            $sql = 'UPDATE purchase SET pay_flg = 1 WHERE affiliate_auth = "' . $this->user['affiliate_auth'] . '" AND pay_flg = 0';
+            $sql = 'UPDATE purchase SET status = 1 WHERE affiliate_auth = "' . $this->user['affiliate_auth'] . '" AND pay_flg = 1 ';
             $this->db->query($sql, $params);
 
             $this->db->trans_complete();
@@ -308,7 +314,7 @@ class Mypage_model extends FRONT_Model {
             $this->viewVar['success'] = "出金依頼をおこないました。";
         }
 
-        front_layout_view('mypage_request', $this->viewVar);
+        redirect('/mypage/request/complete');
     }
 
     public function do_faq() {

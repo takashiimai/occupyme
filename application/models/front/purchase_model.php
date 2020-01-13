@@ -97,6 +97,7 @@ class Purchase_model extends FRONT_Model {
             front_layout_view('purchase_index', $this->viewVar);
         } else {
             // 登録
+            $fee = 0;
             $this->load->model('db/db_member_model');
             $this->load->model('db/db_purchase_model');
             if (!$this->session->userdata('login')) {
@@ -120,15 +121,28 @@ class Purchase_model extends FRONT_Model {
                     $member_id = $user['id'];
                 }
             }
+
+            if ($this->session->userdata('affiliate_auth')) {
+                $params = array(
+                    $this->session->userdata('affiliate_auth'),
+                );
+                $sql = 'SELECT * FROM member WHERE affiliate_auth = ?';
+                $res = $this->db->query($sql, $params);
+                if ($res->num_rows() > 0) {
+                    $user = $res->row_array();
+                    $fee = $user['member_type'];
+                }
+            }
             $userinfo = [
-                'name'    => $this->input->post('email'),
-                'address' => $this->input->post('address'),
-                'phone'   => $this->input->post('phone'),
+                'name'          => $this->input->post('email'),
+                'address'       => $this->input->post('address'),
+                'phone'         => $this->input->post('phone'),
+                'item_image'    => $this->input->post('image'),
             ];
             $params = array(
-                'member_id'             => $this->db_member_model->get_last_insert_id(),
+                'member_id'             => $member_id,
                 'affiliate_auth'        => $this->session->userdata('affiliate_auth') == FALSE ? '' : $this->session->userdata('affiliate_auth'),
-                'fee'                   => 0,
+                'fee'                   => $fee,       // 0:リンク会員のURLからの購入 1:VIP会員のURLからの購入
                 'pay_flg'               => 0,
                 'userinfo'              => json_encode($userinfo, JSON_UNESCAPED_UNICODE),
             );

@@ -20,6 +20,15 @@ class Mypage extends FRONT_Controller {
         }
     }
 
+    public function purchase()
+    {
+        try {
+            $this->mypage_model->do_purchase();
+        } catch (Exception $e) {
+            $this->_show_error($e->getMessage());
+        }
+    }
+
     public function report()
     {
         try {
@@ -47,10 +56,13 @@ class Mypage extends FRONT_Controller {
         }
     }
 
-    public function request()
+    public function request($complete = NULL)
     {
         try {
-            $this->mypage_model->do_request();
+            if ($complete == NULL)
+                $this->mypage_model->do_request();
+            else
+                front_layout_view('mypage_complete', $this->viewVar);
         } catch (Exception $e) {
             $this->_show_error($e->getMessage());
         }

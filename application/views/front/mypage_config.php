@@ -75,7 +75,7 @@
         </div>
 
         <div class="form-group row">
-            <label class="col-12 col-lg-3 text-right" for="name">名義</label>
+            <label class="col-12 col-lg-3 text-right" for="name">名義(カタカナ)</label>
             <input class="form-control col-12 col-lg-4" id="name" name="name" placeholder="例）山田太郎"  value="<?= $post['name']; ?>">
             <small class="offset-lg-3 form-text text-danger"><?= form_error('name'); ?></small>
         </div>

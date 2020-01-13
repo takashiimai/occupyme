@@ -20,8 +20,8 @@
         </div>
 
         <div class="offset-lg-3 col-12 col-lg-6 alert alert-primary">
-            下記オリジナルグッズをご購入いただいた場合、アフィリエイト報酬は、な、な、なんと、50,000円！！
-            奮ってご参加ください。参加手順は<a href="">こちら</a>。
+            下記オリジナルグッズをご購入いただいた場合、アフィリエイト報酬は、なんと50,000円！！
+            奮ってご参加ください。
         </div>
 
         <div class="offset-lg-3 col-6 col-lg-3">
@@ -32,6 +32,9 @@
                     <p class="card-text">白地に黒のロゴ入りキーホルダーです。</p>
                     <p class="card-text">
                         価格：100,000円（税込）
+                    </p>
+                    <p class="text-danger">
+                        成果報酬：50,000円
                     </p>
                     <p class="mb-0 text-center"><a href="/purchase/keyholder" class="btn btn-primary btn-sm">購入画面に進む</a></p>
                 </div>
@@ -46,6 +49,9 @@
                     <p class="card-text">白地に黒のロゴ入りカンバッヂです。</p>
                     <p class="card-text">
                         価格：100,000円（税込）
+                    </p>
+                    <p class="text-danger">
+                        成果報酬：50,000円
                     </p>
                     <p class="mb-0 text-center"><a href="/purchase/badge" class="btn btn-primary btn-sm">購入画面に進む</a></p>
                 </div>

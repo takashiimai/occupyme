@@ -7,6 +7,10 @@ BODY .default {
   font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',  Meiryo, メイリオ, sans-serif !important;
 }
 
+.card.fit {
+    width: fit-content;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -58,29 +62,6 @@ p.title {
 	-ms-transform:rotate(-270deg);
 }
 
-h4 {
-  position: relative;
-  color: #111;
-  background: #ccc;
-  font-size: 32px;
-  line-height: 1;
-  margin: 30px 50px 50px 40px;
-  padding: 14px 5px 10px 50px;
-  border-radius: 22px 0 0 22px;
-
-}
-h4:before {
-  content: "";
-  position: absolute;
-  background: #eee;
-  top: 50%;
-  left: 14px;
-  margin-top :-10px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px #777 inset;
-}
 
 .menuRibbon {
 	margin:0 0 10px 0;

@@ -1,48 +1,43 @@
-<br>
-<div class="pure-g">
-    <div class="pure-u-1-12"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-lg-3">
+<?php include("layout_mypage_menu.php"); ?>
+        </div>
 
-    <div class="pure-u-1-6">
-        <?php include("layout_mypage_menu.php"); ?>
-    </div>
-
-    <div class="pure-u-2-3" style="margin-left:50px; text-align:left">
-<?php $link = "http://". $_SERVER['SERVER_NAME'] . "/lp?" . $user['affiliate_auth']; ?>
-            <form class="pure-form pure-form-aligned">
-                <fieldset>
-                    <div class="pure-control-group">
-                        <label>あなたのアフィリエイトURL</label>
-                        <input class="pure-input-2-3" id="name" type="text" value="<?= $link; ?>">
+        <div class="col-12 col-lg-9">
+<?php $link = "https://". $_SERVER['SERVER_NAME'] . "/lp?" . $user['affiliate_auth']; ?>
+            <form>
+                <div class="form-group row">
+                    <label class="col-12 col-lg-4">あなたのアフィリエイトURL</label>
+                    <div class="col-12 col-lg-8">
+                        <input class="form-control" id="name" type="text" value="<?= $link; ?>">
                     </div>
-                </fieldset>
+                </div>
 
-                <fieldset>
-                    <div class="pure-control-group">
-                        <label>テキストリンク用</label>
-                        <textarea cols=70 rows=5 style="text-align:left">
-<a href="<?= $link; ?>">「恋人募集中」グッズ販売中。高額アフィリエイトも展開中！</a>
+                <div class="form-group row">
+                    <label class="col-12 col-lg-4">テキストリンク用タグ</label>
+                    <div class="col-12 col-lg-8">
+                        <textarea class="form-control" cols=70 rows=5>
+<a href="<?= $link; ?>">「恋人募集中」オリジナルグッズ販売中。高額アフィリエイトも実施中！</a>
                         </textarea>
                     </div>
-                </fieldset>
+                </div>
 
-                <fieldset>
-                    <div class="pure-control-group">
-                        <label>バナーリンク用</label>
-                        <textarea cols=70 rows=4 style="text-align:left">
+                <div class="form-group row">
+                    <label class="col-12 col-lg-4">バナーリンク用タグ</label>
+                    <div class="col-12 col-lg-8">
+                        <textarea class="form-control" cols=70 rows=4>
 <a href="<?= $link; ?>"><img src="affiliate.png"></a>
                         </textarea>
                     </div>
-                </fieldset>
-
+                    <div class="col-12 offset-lg-4 col-lg-8 mt-3">
+                        <img src="/images/affiliate.png"><br>
+                        ↑バナーです。直リンクせずダウンロードしてご使用ください。
+                    </div>
+                </div>
             </form>
 
-            <div style="margin:40px auto">
-            <img src="/images/affiliate.png"><br>
-            ↑バナーです。直リンクせずダウンロードしてご使用ください。
-            </div>
-
+        </div>
     </div>
-
-    <div class="pure-u-1-12"></div>
 </div>
 

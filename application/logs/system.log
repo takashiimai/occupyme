@@ -58508,3 +58508,871 @@ DEBUG - 2020-01-12 22:00:44 --> File loaded: /var/www/share/occupyme/application
 DEBUG - 2020-01-12 22:00:44 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
 DEBUG - 2020-01-12 22:00:44 --> Final output sent to browser
 DEBUG - 2020-01-12 22:00:44 --> Total execution time: 0.1369
+DEBUG - 2020-01-12 22:45:04 --> Config Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:45:04 --> URI Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Router Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Output Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Security Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Input Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:45:04 --> Language Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:45:04 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Session Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:45:04 --> Session routines successfully run
+DEBUG - 2020-01-12 22:45:04 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:45:04 --> Model Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Model Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Config Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:45:04 --> URI Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Router Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Output Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Security Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Input Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:45:04 --> Language Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:45:04 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Session Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:45:04 --> Session routines successfully run
+DEBUG - 2020-01-12 22:45:04 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:45:04 --> Model Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Model Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> Model Class Initialized
+DEBUG - 2020-01-12 22:45:04 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:45:04 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:45:04 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:45:04 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:45:04 --> Final output sent to browser
+DEBUG - 2020-01-12 22:45:04 --> Total execution time: 0.0755
+DEBUG - 2020-01-12 22:58:05 --> Config Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:58:05 --> URI Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Router Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Output Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Security Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Input Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:58:05 --> Language Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:58:05 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:58:05 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Session Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:58:05 --> Session routines successfully run
+DEBUG - 2020-01-12 22:58:05 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:58:05 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:05 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:58:05 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:58:05 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:58:05 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:58:05 --> Final output sent to browser
+DEBUG - 2020-01-12 22:58:05 --> Total execution time: 0.1062
+DEBUG - 2020-01-12 22:58:39 --> Config Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:58:39 --> URI Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Router Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Output Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Security Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Input Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:58:39 --> Language Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:58:39 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:58:39 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Session Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:58:39 --> Session routines successfully run
+DEBUG - 2020-01-12 22:58:39 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:58:39 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> Model Class Initialized
+DEBUG - 2020-01-12 22:58:39 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:58:39 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:58:39 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:58:39 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:58:39 --> Final output sent to browser
+DEBUG - 2020-01-12 22:58:39 --> Total execution time: 0.0947
+DEBUG - 2020-01-12 22:59:07 --> Config Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:59:07 --> URI Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Router Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Output Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Security Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Input Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:59:07 --> Language Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:59:07 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:59:07 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Session Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:59:07 --> Session routines successfully run
+DEBUG - 2020-01-12 22:59:07 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:59:07 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:59:07 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:59:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:59:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:59:07 --> Final output sent to browser
+DEBUG - 2020-01-12 22:59:07 --> Total execution time: 0.1266
+DEBUG - 2020-01-12 22:59:08 --> Config Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:59:08 --> URI Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Router Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Output Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Security Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Input Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:59:08 --> Language Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:59:08 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:59:08 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Session Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:59:08 --> Session routines successfully run
+DEBUG - 2020-01-12 22:59:08 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:59:08 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:59:08 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:59:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:59:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:59:08 --> Final output sent to browser
+DEBUG - 2020-01-12 22:59:08 --> Total execution time: 0.1769
+DEBUG - 2020-01-12 22:59:58 --> Config Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Hooks Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 22:59:58 --> URI Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Router Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Output Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Security Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Input Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 22:59:58 --> Language Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Loader Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 22:59:58 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 22:59:58 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Session Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 22:59:58 --> Session routines successfully run
+DEBUG - 2020-01-12 22:59:58 --> Controller Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 22:59:58 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> Model Class Initialized
+DEBUG - 2020-01-12 22:59:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 22:59:58 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 22:59:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 22:59:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 22:59:58 --> Final output sent to browser
+DEBUG - 2020-01-12 22:59:58 --> Total execution time: 0.1338
+DEBUG - 2020-01-12 23:00:15 --> Config Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:00:15 --> URI Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Router Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Output Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Security Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Input Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:00:15 --> Language Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:00:15 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:00:15 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Session Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:00:15 --> Session routines successfully run
+DEBUG - 2020-01-12 23:00:15 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:00:15 --> Model Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Model Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> Model Class Initialized
+DEBUG - 2020-01-12 23:00:15 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:00:15 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:00:15 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:00:15 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:00:15 --> Final output sent to browser
+DEBUG - 2020-01-12 23:00:15 --> Total execution time: 0.1803
+DEBUG - 2020-01-12 23:01:30 --> Config Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:01:30 --> URI Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Router Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Output Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Security Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Input Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:01:30 --> Language Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:01:30 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:01:30 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Session Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:01:30 --> Session routines successfully run
+DEBUG - 2020-01-12 23:01:30 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:01:30 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:30 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:01:30 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:01:30 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:01:30 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:01:30 --> Final output sent to browser
+DEBUG - 2020-01-12 23:01:30 --> Total execution time: 0.1099
+DEBUG - 2020-01-12 23:01:40 --> Config Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:01:40 --> URI Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Router Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Output Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Security Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Input Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:01:40 --> Language Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:01:40 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:01:40 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Session Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:01:40 --> Session routines successfully run
+DEBUG - 2020-01-12 23:01:40 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:01:40 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:40 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:01:40 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:01:40 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:01:40 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:01:40 --> Final output sent to browser
+DEBUG - 2020-01-12 23:01:40 --> Total execution time: 0.1582
+DEBUG - 2020-01-12 23:01:49 --> Config Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:01:49 --> URI Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Router Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Output Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Security Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Input Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:01:49 --> Language Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:01:49 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:01:49 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Session Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:01:49 --> Session routines successfully run
+DEBUG - 2020-01-12 23:01:49 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:01:49 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> Model Class Initialized
+DEBUG - 2020-01-12 23:01:49 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:01:49 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:01:49 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:01:49 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:01:49 --> Final output sent to browser
+DEBUG - 2020-01-12 23:01:49 --> Total execution time: 0.1358
+DEBUG - 2020-01-12 23:03:02 --> Config Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:03:02 --> URI Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Router Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Output Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Security Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Input Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:03:02 --> Language Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:03:02 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:03:02 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Session Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:03:02 --> Session routines successfully run
+DEBUG - 2020-01-12 23:03:02 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:03:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:03:02 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:03:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:03:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:03:02 --> Final output sent to browser
+DEBUG - 2020-01-12 23:03:02 --> Total execution time: 0.1916
+DEBUG - 2020-01-12 23:03:07 --> Config Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:03:07 --> URI Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Router Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Output Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Security Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Input Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:03:07 --> Language Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:03:07 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:03:07 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Session Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:03:07 --> Session routines successfully run
+DEBUG - 2020-01-12 23:03:07 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:03:07 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> Model Class Initialized
+DEBUG - 2020-01-12 23:03:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:03:07 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:03:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:03:07 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:03:07 --> Final output sent to browser
+DEBUG - 2020-01-12 23:03:07 --> Total execution time: 0.1794
+DEBUG - 2020-01-12 23:08:09 --> Config Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:08:09 --> URI Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Router Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Output Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Security Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Input Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:08:09 --> Language Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:08:09 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:08:09 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Session Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:08:09 --> Session routines successfully run
+DEBUG - 2020-01-12 23:08:09 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:08:09 --> Model Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Model Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> Model Class Initialized
+DEBUG - 2020-01-12 23:08:09 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:08:09 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:08:09 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:08:09 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:08:09 --> Final output sent to browser
+DEBUG - 2020-01-12 23:08:09 --> Total execution time: 0.1069
+DEBUG - 2020-01-12 23:09:03 --> Config Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:09:03 --> URI Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Router Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Output Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Security Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Input Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:09:03 --> Language Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:09:03 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:09:03 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Session Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:09:03 --> Session routines successfully run
+DEBUG - 2020-01-12 23:09:03 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:09:03 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:03 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:09:03 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:09:03 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:09:03 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:09:03 --> Final output sent to browser
+DEBUG - 2020-01-12 23:09:03 --> Total execution time: 0.1027
+DEBUG - 2020-01-12 23:09:13 --> Config Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:09:13 --> URI Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Router Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Output Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Security Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Input Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:09:13 --> Language Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:09:13 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:09:13 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Session Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:09:13 --> Session routines successfully run
+DEBUG - 2020-01-12 23:09:13 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:09:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:09:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:09:13 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:09:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:09:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:09:13 --> Final output sent to browser
+DEBUG - 2020-01-12 23:09:13 --> Total execution time: 0.1562
+DEBUG - 2020-01-12 23:12:08 --> Config Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:12:08 --> URI Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Router Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Output Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Security Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Input Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:12:08 --> Language Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:12:08 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:12:08 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Session Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:12:08 --> Session routines successfully run
+DEBUG - 2020-01-12 23:12:08 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:12:08 --> Model Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Model Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> Model Class Initialized
+DEBUG - 2020-01-12 23:12:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:12:08 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:12:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:12:08 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:12:08 --> Final output sent to browser
+DEBUG - 2020-01-12 23:12:08 --> Total execution time: 0.0954
+DEBUG - 2020-01-12 23:13:14 --> Config Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:13:14 --> URI Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Router Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Output Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Security Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Input Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:13:14 --> Language Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:13:14 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:13:14 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Session Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:13:14 --> Session routines successfully run
+DEBUG - 2020-01-12 23:13:14 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:13:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:13:14 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:13:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:13:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:13:14 --> Final output sent to browser
+DEBUG - 2020-01-12 23:13:14 --> Total execution time: 0.1416
+DEBUG - 2020-01-12 23:13:48 --> Config Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:13:48 --> URI Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Router Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Output Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Security Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Input Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:13:48 --> Language Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:13:48 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:13:48 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Session Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:13:48 --> Session routines successfully run
+DEBUG - 2020-01-12 23:13:48 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:13:48 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> Model Class Initialized
+DEBUG - 2020-01-12 23:13:48 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:13:48 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:13:48 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:13:48 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:13:48 --> Final output sent to browser
+DEBUG - 2020-01-12 23:13:48 --> Total execution time: 0.1687
+DEBUG - 2020-01-12 23:17:46 --> Config Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:17:46 --> URI Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Router Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Output Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Security Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Input Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:17:46 --> Language Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:17:46 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:17:46 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Session Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:17:46 --> Session routines successfully run
+DEBUG - 2020-01-12 23:17:46 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:17:46 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:46 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:17:46 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:17:46 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:17:46 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:17:46 --> Final output sent to browser
+DEBUG - 2020-01-12 23:17:46 --> Total execution time: 0.1313
+DEBUG - 2020-01-12 23:17:54 --> Config Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:17:54 --> URI Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Router Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Output Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Security Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Input Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:17:54 --> Language Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:17:54 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:17:54 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Session Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:17:54 --> Session routines successfully run
+DEBUG - 2020-01-12 23:17:54 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:17:54 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> Model Class Initialized
+DEBUG - 2020-01-12 23:17:54 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:17:54 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:17:54 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:17:54 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:17:54 --> Final output sent to browser
+DEBUG - 2020-01-12 23:17:54 --> Total execution time: 0.1440
+DEBUG - 2020-01-12 23:18:13 --> Config Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:18:13 --> URI Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Router Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Output Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Security Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Input Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:18:13 --> Language Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:18:13 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:18:13 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Session Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:18:13 --> Session routines successfully run
+DEBUG - 2020-01-12 23:18:13 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:18:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> Model Class Initialized
+DEBUG - 2020-01-12 23:18:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:18:13 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:18:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:18:13 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:18:13 --> Final output sent to browser
+DEBUG - 2020-01-12 23:18:13 --> Total execution time: 0.1495
+DEBUG - 2020-01-12 23:19:58 --> Config Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:19:58 --> URI Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Router Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Output Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Security Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Input Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:19:58 --> Language Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:19:58 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:19:58 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Session Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:19:58 --> Session routines successfully run
+DEBUG - 2020-01-12 23:19:58 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:19:58 --> Model Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Model Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Model Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> Model Class Initialized
+DEBUG - 2020-01-12 23:19:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:19:58 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_report.php
+DEBUG - 2020-01-12 23:19:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:19:58 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:19:58 --> Final output sent to browser
+DEBUG - 2020-01-12 23:19:58 --> Total execution time: 0.1428
+DEBUG - 2020-01-12 23:20:01 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:01 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:01 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:01 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:01 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:01 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:01 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:01 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> Helper loaded: form_helper
+DEBUG - 2020-01-12 23:20:01 --> Form Validation Class Initialized
+DEBUG - 2020-01-12 23:20:01 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:01 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_config.php
+DEBUG - 2020-01-12 23:20:01 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:01 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:01 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:01 --> Total execution time: 0.1918
+DEBUG - 2020-01-12 23:20:02 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:02 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:02 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:02 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:02 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:02 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:02 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:02 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:20:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:02 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:02 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:02 --> Total execution time: 0.0859
+DEBUG - 2020-01-12 23:20:14 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:14 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:14 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:14 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:14 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:14 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:14 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:14 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_faq.php
+DEBUG - 2020-01-12 23:20:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:14 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:14 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:14 --> Total execution time: 0.1486
+DEBUG - 2020-01-12 23:20:20 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:20 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:20 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:20 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:20 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:21 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:21 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:21 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:21 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> Helper loaded: form_helper
+DEBUG - 2020-01-12 23:20:21 --> Form Validation Class Initialized
+DEBUG - 2020-01-12 23:20:21 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:21 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_config.php
+DEBUG - 2020-01-12 23:20:21 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:21 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:21 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:21 --> Total execution time: 0.1797
+DEBUG - 2020-01-12 23:20:25 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:25 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:25 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:25 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:25 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:25 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:25 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:25 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:25 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:25 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_report.php
+DEBUG - 2020-01-12 23:20:25 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:25 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:25 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:25 --> Total execution time: 0.1610
+DEBUG - 2020-01-12 23:20:26 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:26 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:26 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:26 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:26 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:26 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:26 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:26 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:26 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:26 --> File loaded: /var/www/share/occupyme/application/views/front/mypage_index.php
+DEBUG - 2020-01-12 23:20:26 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:26 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:26 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:26 --> Total execution time: 0.1406
+DEBUG - 2020-01-12 23:20:29 --> Config Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Hooks Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Utf8 Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> UTF-8 Support Enabled
+DEBUG - 2020-01-12 23:20:29 --> URI Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Router Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Output Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Security Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Input Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2020-01-12 23:20:29 --> Language Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Loader Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Helper loaded: url_helper
+DEBUG - 2020-01-12 23:20:29 --> Helper loaded: log_helper
+DEBUG - 2020-01-12 23:20:29 --> Database Driver Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Session Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Helper loaded: string_helper
+DEBUG - 2020-01-12 23:20:29 --> Session routines successfully run
+DEBUG - 2020-01-12 23:20:29 --> Controller Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Helper loaded: front_layout_helper
+DEBUG - 2020-01-12 23:20:29 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> Model Class Initialized
+DEBUG - 2020-01-12 23:20:29 --> File loaded: /var/www/share/occupyme/application/views/front/layout_header_view.php
+DEBUG - 2020-01-12 23:20:29 --> File loaded: /var/www/share/occupyme/application/views/front/top_index.php
+DEBUG - 2020-01-12 23:20:29 --> File loaded: /var/www/share/occupyme/application/views/front/layout_footer_view.php
+DEBUG - 2020-01-12 23:20:29 --> File loaded: /var/www/share/occupyme/application/views/front/layout_view.php
+DEBUG - 2020-01-12 23:20:29 --> Final output sent to browser
+DEBUG - 2020-01-12 23:20:29 --> Total execution time: 0.1499

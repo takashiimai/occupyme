@@ -11,6 +11,10 @@ BODY .default {
     cursor: pointer;
 }
 
+.active a {
+    color: #fff !important;
+}
+
 .frame {
     position: relative;
     display: inline-block;

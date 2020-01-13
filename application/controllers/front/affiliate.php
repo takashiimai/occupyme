@@ -29,13 +29,9 @@ class Affiliate extends FRONT_Controller {
         }
     }
 
-    public function vip()
+    public function complete()
     {
-        try {
-            $this->affiliate_model->do_vip();
-        } catch (Exception $e) {
-            $this->_show_error($e->getMessage());
-        }
+        front_layout_view('affiliate_complete');
     }
 }
 

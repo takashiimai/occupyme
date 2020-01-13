@@ -39,6 +39,11 @@ class Purchase extends FRONT_Controller {
         }
     }
 
+    public function complete()
+    {
+        front_layout_view('purchase_complete');
+    }
+
 }
 
 /* End of file welcome.php */

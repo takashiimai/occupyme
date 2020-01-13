@@ -1,6 +1,6 @@
 <?php
 
-class Access_model extends DB_Model {
+class Db_items_model extends DB_Model {
 
     /**
      * construct
@@ -9,5 +9,7 @@ class Access_model extends DB_Model {
      */
     public function __construct() {
         parent::__construct();
+
+        $this->tbl = 'items';
     }
 }

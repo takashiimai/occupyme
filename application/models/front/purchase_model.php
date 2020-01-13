@@ -18,7 +18,7 @@ class Purchase_model extends FRONT_Model {
      * @return boolean チェック結果
      */
     public function do_keyholder() {
-        $this->viewVar['image'] = '/images/item_keyholder.jpg';
+        $this->viewVar['image'] = 'keyholder.jpg';
         front_layout_view('purchase_index', $this->viewVar);
     }
 
@@ -28,11 +28,13 @@ class Purchase_model extends FRONT_Model {
      * @return boolean チェック結果
      */
     public function do_badge() {
-        $this->viewVar['image'] = '/images/item_badge.jpg';
+        $this->viewVar['image'] = 'badge.jpg';
         front_layout_view('purchase_index', $this->viewVar);
     }
 
     public function do_post() {
+        $this->viewVar['image'] = $this->input->post('image');
+
         if ($this->session->userdata('login')) {
             $config = array(
                 array(
@@ -49,6 +51,11 @@ class Purchase_model extends FRONT_Model {
                  'field'   => 'phone',
                  'label'   => '電話番号',
                  'rules'   => 'required|max_length[200]',
+                ),
+                array(
+                 'field'   => 'image',
+                 'label'   => '画像',
+                 'rules'   => '',
                 ),
             );
         } else {
@@ -78,15 +85,20 @@ class Purchase_model extends FRONT_Model {
                  'label'   => '電話番号',
                  'rules'   => 'required|max_length[200]',
                 ),
+                array(
+                 'field'   => 'image',
+                 'label'   => '画像',
+                 'rules'   => '',
+                ),
             );
         }
         $this->form_validation->set_rules($config);
         if ($this->form_validation->run() == FALSE) {
-            front_layout_view('purchase_index');
+            front_layout_view('purchase_index', $this->viewVar);
         } else {
             // 登録
-            $this->load->model('db/member_model');
-            $this->load->model('db/purchase_model');
+            $this->load->model('db/db_member_model');
+            $this->load->model('db/db_purchase_model');
             if (!$this->session->userdata('login')) {
                 $params = array(
                     'email'                 => $this->input->post('email'),
@@ -95,11 +107,11 @@ class Purchase_model extends FRONT_Model {
                     'parent_affiliate_auth' => $this->session->userdata('affiliate_auth') == FALSE ? '' : $this->session->userdata('affiliate_auth'),
                     'affiliate_auth'        => md5( $this->input->post('email') . rand(1,100000000)),
                 );
-                $this->member_model->insert($params);
-                $member_id = $this->member_model->get_last_insert_id();
+                $this->db_member_model->insert($params);
+                $member_id = $this->db_member_model->get_last_insert_id();
             } else {
                 $params = array(
-                    $email,
+                    $this->session->userdata('login'),
                 );
                 $sql = 'SELECT * FROM member WHERE email = ?';
                 $res = $this->db->query($sql, $params);
@@ -114,18 +126,20 @@ class Purchase_model extends FRONT_Model {
                 'phone'   => $this->input->post('phone'),
             ];
             $params = array(
-                'member_id'             => $this->member_model->get_last_insert_id(),
+                'member_id'             => $this->db_member_model->get_last_insert_id(),
                 'affiliate_auth'        => $this->session->userdata('affiliate_auth') == FALSE ? '' : $this->session->userdata('affiliate_auth'),
                 'fee'                   => 0,
                 'pay_flg'               => 0,
                 'userinfo'              => json_encode($userinfo, JSON_UNESCAPED_UNICODE),
             );
-            $this->purchase_model->insert($params);
+            $this->db_purchase_model->insert($params);
 
             // ログインフラグON
-            $this->session->set_userdata('login', $this->input->post('email'));
+            if (!$this->session->userdata('login')) {
+                $this->session->set_userdata('login', $this->input->post('email'));
+            }
 
-            front_layout_view('purchase_post');
+            redirect('/purchase/complete');
         }
     }
 

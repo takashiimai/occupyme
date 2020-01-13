@@ -43,12 +43,12 @@ class Buy_model extends FRONT_Model {
 			$affiliate_auth = FALSE;
 			$fee = NULL;
 		}
-        $this->load->model('db/purchase_model');
+        $this->load->model('db/db_purchase_model');
         $params = array(
             'affiliate_auth'   => $affiliate_auth == FALSE ? '' : $affiliate_auth,
 			'fee' => $fee,
         );
-        $this->purchase_model->insert($params);
+        $this->db_purchase_model->insert($params);
         $this->session->unset_userdata('affiliate_auth');
 
         loginfo("refferer:", $_SERVER['HTTP_REFERER']);

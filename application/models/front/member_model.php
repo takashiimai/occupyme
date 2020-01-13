@@ -24,7 +24,7 @@ class Member_model extends FRONT_Model {
             $email = $this->input->post('email');
             $password = $this->input->post('password');
             if ($email && $password) {
-                $this->load->model('db/member_model');
+                $this->load->model('db/db_member_model');
 
                 $params = array(
                     $email,

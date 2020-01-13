@@ -3,7 +3,7 @@
         <p class="col-12 offset-lg-2 col-lg-8 menuTabLight title mt-5">購入画面</p>
         <div class="col-12 row">
             <div class="col-12 offset-lg-4 col-lg-4">
-                <img class="img-responsive img-thumbnail" src="<?= $image; ?>">
+                <img class="img-responsive img-thumbnail" src="/images/item_<?= $image; ?>">
             </div>
         </div>
         <div class="col-12 text-center my-3">
@@ -15,7 +15,7 @@
             なお当システムからメールをお送りしますため<br>「occupy.maitakajp.com ドメイン」<br>からのメールを受信できるようご設定ください。<br>
             <p>
             </p>
-            ※アカウントをお持ちの方は、<a href="/member/login">ログイン</a>をおこなってください。
+            ※アカウントをお持ちの方は、<a href="/member/login">ログイン</a>してから購入手続きをおこなってください。
             </p>
 <?php else : ?>
 
@@ -24,6 +24,7 @@
         <div class="col-12 row">
             <div class="col-12 offset-lg-3 col-lg-6">
                 <form class="" action="/purchase/post" method="POST">
+                    <input type="hidden" name="image" value="<?= $image; ?>">
 <?php if (!isset($login) || !$login) : ?>
                     <div class="form-group row">
                         <label class="col-12 col-lg-4 text-right" for="email">メールアドレス</label>
@@ -44,7 +45,7 @@
                     <div class="form-group row">
                         <label class="col-12 col-lg-4 text-right" for="name">名前</label>
                         <input class="form-control col-12 col-lg-6" id="name" name="name" value="<?= set_value('name'); ?>" required>
-                        <small class="offset-lg-4 form-text text-danger"><?= form_error('passwd'); ?></small>
+                        <small class="offset-lg-4 form-text text-danger"><?= form_error('name'); ?></small>
                     </div>
 
                     <div class="form-group row">

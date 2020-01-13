@@ -12,7 +12,7 @@ class Mypage_model extends FRONT_Model {
     public function __construct() {
         parent::__construct();
 
-        $this->load->model('db/member_model');
+        $this->load->model('db/db_member_model');
 
         $email = $this->session->userdata('login');
         if (!$email) {
@@ -49,7 +49,7 @@ class Mypage_model extends FRONT_Model {
         $year = $this->input->post('year');
         $month = $this->input->post('month');
         if ($year > 0 && $month > 0) {
-            $this->load->model('db/access_model');
+            $this->load->model('db/db_access_model');
 
             // 当月LPアクセス集計
             $this->viewVar['access'] = 0;
@@ -66,7 +66,7 @@ class Mypage_model extends FRONT_Model {
             }
 
             // 当月売り上げ件数
-            $this->load->model('db/purchase_model');
+            $this->load->model('db/db_purchase_model');
             $this->viewVar['purchase_normal'] = 0;
             $this->viewVar['purchase_vip'] = 0;
             $params = array(
@@ -99,7 +99,7 @@ class Mypage_model extends FRONT_Model {
         }
 
         // 総合売り上げ件数
-        $this->load->model('db/purchase_model');
+        $this->load->model('db/db_purchase_model');
         $this->viewVar['purchase_total_normal'] = 0;
         $this->viewVar['purchase_total_vip'] = 0;
         $params = array(
@@ -118,7 +118,7 @@ class Mypage_model extends FRONT_Model {
 
 
         // 出金可能額
-        $this->load->model('db/purchase_model');
+        $this->load->model('db/db_purchase_model');
         $this->viewVar['payable_normal'] = 0;
         $this->viewVar['payable_vip'] = 0;
         $params = array(
@@ -137,7 +137,7 @@ class Mypage_model extends FRONT_Model {
         }
 
         // 出金依頼額
-        $this->load->model('db/purchase_model');
+        $this->load->model('db/db_purchase_model');
         $this->viewVar['requestpay_normal'] = 0;
         $this->viewVar['requestpay_vip'] = 0;
         $params = array(
@@ -240,7 +240,7 @@ class Mypage_model extends FRONT_Model {
                 $this->viewVar['error'] = "入力した内容にエラーが発生しました。内容をご確認ください。";
             } else {
                 // 登録
-                $this->load->model('db/member_model');
+                $this->load->model('db/db_member_model');
                 $params = array(
                     'id'             => $this->input->post('id'),
                     'email'          => $this->input->post('email'),
@@ -253,7 +253,7 @@ class Mypage_model extends FRONT_Model {
                     'account'        => $this->input->post('account'),
                     'name'           => $this->input->post('name'),
                 );
-                $this->member_model->update_by_id($params);
+                $this->db_member_model->update_by_id($params);
 
                 $this->viewVar['success'] = "登録しました。";
             }
@@ -271,7 +271,7 @@ class Mypage_model extends FRONT_Model {
     public function do_request() {
         // 出金可能額
         $money = 0;
-        $this->load->model('db/purchase_model');
+        $this->load->model('db/db_purchase_model');
         $params = array(
             $this->user['affiliate_auth'],
             0,
@@ -289,7 +289,7 @@ class Mypage_model extends FRONT_Model {
             $this->viewVar['error'] = "出金可能金額に達していません。";
         } else {
             // 登録
-            $this->load->model('db/request_model');
+            $this->load->model('db/db_request_model');
 
             $this->db->trans_start();
 
@@ -298,7 +298,7 @@ class Mypage_model extends FRONT_Model {
                 'request_date'         => date("Y-m-d H:i:s"),
                 'request_money'        => $money,
             );
-            $this->request_model->insert($params);
+            $this->db_request_model->insert($params);
 
             $sql = 'UPDATE purchase SET pay_flg = 1 WHERE affiliate_auth = "' . $this->user['affiliate_auth'] . '" AND pay_flg = 0';
             $this->db->query($sql, $params);

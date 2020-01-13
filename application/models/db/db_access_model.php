@@ -1,6 +1,6 @@
 <?php
 
-class Purchase_model extends DB_Model {
+class Db_access_model extends DB_Model {
 
     /**
      * construct
@@ -9,5 +9,7 @@ class Purchase_model extends DB_Model {
      */
     public function __construct() {
         parent::__construct();
+
+        $this->tbl = 'access';
     }
 }

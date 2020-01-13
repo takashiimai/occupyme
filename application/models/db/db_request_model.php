@@ -1,6 +1,6 @@
 <?php
 
-class Member_model extends DB_Model {
+class Db_request_model extends DB_Model {
 
     /**
      * construct
@@ -9,5 +9,7 @@ class Member_model extends DB_Model {
      */
     public function __construct() {
         parent::__construct();
+
+        $this->tbl = 'request';
     }
 }

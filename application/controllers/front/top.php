@@ -19,15 +19,6 @@ class Top extends FRONT_Controller {
             $this->_show_error($e->getMessage());
         }
     }
-
-    public function buy($name = NULL)
-    {
-        try {
-            $this->top_model->do_buy($name);
-        } catch (Exception $e) {
-            $this->_show_error($e->getMessage());
-        }
-    }
 }
 
 /* End of file welcome.php */

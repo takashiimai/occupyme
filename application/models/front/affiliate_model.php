@@ -46,7 +46,7 @@ class Affiliate_model extends FRONT_Model {
             front_layout_view('affiliate_index');
         } else {
             // 登録
-            $this->load->model('db/member_model');
+            $this->load->model('db/db_member_model');
             $params = array(
                 'email'                 => $this->input->post('email'),
                 'passwd'                => $this->input->post('passwd'),
@@ -54,12 +54,12 @@ class Affiliate_model extends FRONT_Model {
                 'parent_affiliate_auth' => $this->session->userdata('affiliate_auth') == FALSE ? '' : $this->session->userdata('affiliate_auth'),
                 'affiliate_auth'        => md5( $this->input->post('email') . rand(1,100000000)),
             );
-            $this->member_model->insert($params);
+            $this->db_member_model->insert($params);
 
             // ログインフラグON
             $this->session->set_userdata('login', $this->input->post('email'));
 
-            front_layout_view('affiliate_post');
+            redirect('/affiliate/complete');
         }
     }
 }

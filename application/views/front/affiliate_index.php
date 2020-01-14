@@ -9,13 +9,13 @@
             <div class="col-12 offset-lg-3 col-lg-6">
                 <form class="" action="/affiliate/post" method="POST">
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="email">メールアドレス</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="email">メールアドレス</label>
                         <input class="form-control col-12 col-lg-6" id="email" name="email" value="<?= set_value('email'); ?>" required>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('email'); ?></small>
                     </div>
 
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="password">パスワード</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="password">パスワード</label>
                         <input class="form-control col-12 col-lg-6" id="passwd" name="passwd" value="<?= set_value('passwd'); ?>" required>
                         <small class="offset-lg-4 form-text">※4〜32文字で入力してください</small>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('passwd'); ?></small>

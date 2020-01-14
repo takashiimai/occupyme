@@ -21,13 +21,13 @@
         <div class="offset-lg-2 col-12 col-lg-6">
             <form class="" action="/member/login" method="POST">
                 <div class="form-group row">
-                    <label class="col-12 col-lg-3 col-form-label text-right">メールアドレス</label>
+                    <label class="col-12 col-lg-3 col-form-label text-lg-right">メールアドレス</label>
                     <div class="col-12 col-lg-9">
                         <input class="form-control" type="text" id="email" name="email" value="<?= $post['email']; ?>" required>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label class="col-12 col-lg-3 col-form-label text-right">パスワード</label>
+                    <label class="col-12 col-lg-3 col-form-label text-lg-right">パスワード</label>
                     <div class="col-12 col-lg-9">
                         <input class="form-control" type="password" id="password" name="password" required>
                     </div>

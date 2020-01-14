@@ -5,7 +5,7 @@
         </div>
         <div class="col-12 col-lg-9">
             <form class="form-inline" method="post">
-                <select class="custom-select" name="year">
+                <select class="custom-select col-3" name="year">
 <?php
                 if ($this->input->post('year') > 0) {
                     $selected = $this->input->post('year');
@@ -18,7 +18,7 @@
 ?>
                 </select>
 
-                <select class="custom-select" name="month">
+                <select class="custom-select col-3" name="month">
 <?php
                 if ($this->input->post('month') > 0) {
                     $selected = $this->input->post('month');

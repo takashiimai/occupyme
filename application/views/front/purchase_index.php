@@ -27,13 +27,13 @@
                     <input type="hidden" name="image" value="<?= $image; ?>">
 <?php if (!isset($login) || !$login) : ?>
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="email">メールアドレス</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="email">メールアドレス</label>
                         <input class="form-control col-12 col-lg-6" id="email" name="email" value="<?= set_value('email'); ?>" required>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('email'); ?></small>
                     </div>
 
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="password">パスワード</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="password">パスワード</label>
                         <input class="form-control col-12 col-lg-6" id="passwd" name="passwd" value="<?= set_value('passwd'); ?>" required>
                         <small class="offset-lg-4 form-text">※4〜32文字で入力してください</small>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('passwd'); ?></small>
@@ -43,19 +43,19 @@
                         送付先情報
                     </div>
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="name">名前</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="name">名前</label>
                         <input class="form-control col-12 col-lg-6" id="name" name="name" value="<?= set_value('name'); ?>" required>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('name'); ?></small>
                     </div>
 
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="address">住所</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="address">住所</label>
                         <input class="form-control col-12 col-lg-6" id="address" name="address" value="<?= set_value('address'); ?>" required>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('address'); ?></small>
                     </div>
 
                     <div class="form-group row">
-                        <label class="col-12 col-lg-4 text-right" for="phone">電話番号</label>
+                        <label class="col-12 col-lg-4 text-lg-right" for="phone">電話番号</label>
                         <input class="form-control col-12 col-lg-6" id="phone" name="phone" value="<?= set_value('phone'); ?>" required>
                         <small class="offset-lg-4 form-text text-danger"><?= form_error('phone'); ?></small>
                     </div>

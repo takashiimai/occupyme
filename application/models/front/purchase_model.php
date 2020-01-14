@@ -33,6 +33,8 @@ class Purchase_model extends FRONT_Model {
     }
 
     public function do_post() {
+        $this->load->helper('encrypt');
+
         $this->viewVar['image'] = $this->input->post('image');
 
         if ($this->session->userdata('login')) {
@@ -106,7 +108,7 @@ class Purchase_model extends FRONT_Model {
                     'passwd'                => $this->input->post('passwd'),
                     'member_type'           => 0,
                     'parent_affiliate_auth' => $this->session->userdata('affiliate_auth') == FALSE ? '' : $this->session->userdata('affiliate_auth'),
-                    'affiliate_auth'        => md5( $this->input->post('email') . rand(1,100000000)),
+                    'affiliate_auth'        => shortCRC32( $this->input->post('email') . rand(1,100000000)),
                 );
                 $this->db_member_model->insert($params);
                 $member_id = $this->db_member_model->get_last_insert_id();

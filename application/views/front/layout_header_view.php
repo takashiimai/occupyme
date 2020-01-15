@@ -1,8 +1,8 @@
 <div class="container-fluid">
-    <div class="row" style="max-height: 150px !important;">
+    <div class="row">
         <div class="col-1 text-left px-0"><a href="/top"><img class="img-fluid" src="/images/occuptme.png"></a></div>
         <div class="offset-2"></div>
-        <div class="col-6 text-center" style="max-height: 150px !important;">
+        <div class="col-6 text-center">
 <?php include "ad/adsense_1616161740.php"; ?>
         </div>
         <div class="offset-2"></div>

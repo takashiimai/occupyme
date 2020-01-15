@@ -1,14 +1,11 @@
-<style>
-    .adsense .adsbygoogle {
-        height: 150px !important;
-    }
-</style>
-<div class="container-fluid adsense">
+<div class="container-fluid">
     <div class="row">
         <div class="col-1 text-left px-0"><a href="/top"><img class="img-fluid" src="/images/occuptme.png"></a></div>
-        <div class="col-10 text-center" style="height: 120px !important; max-height: 120px !important;">
+        <div class="offset-2"></div>
+        <div class="col-6 text-center">
 <?php include "ad/adsense_no1.php"; ?>
         </div>
+        <div class="offset-2"></div>
         <div class="col-1 text-right px-0"><a class="btn btn-primary rounded-0" href="/member/login"><?= isset($login) && $login ? 'マイページ' :  'ログイン'?></a></div>
     </div>
 </div>

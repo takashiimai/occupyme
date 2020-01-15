@@ -249,4 +249,9 @@ background-image: url('/images/icon/error.png');
     -ms-box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
 }
 
+img.purchase {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
 }

@@ -1,11 +1,10 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-1 text-left px-0"><a href="/top"><img class="img-fluid" src="/images/occuptme.png"></a></div>
-        <div class="offset-2"></div>
-        <div class="col-6 text-center">
-<?php include "ad/adsense_1616161740.php"; ?>
+        <div class="offset-1"></div>
+        <div class="col-8 text-center">
         </div>
-        <div class="offset-2"></div>
+        <div class="offset-1"></div>
         <div class="col-1 text-right px-0"><a class="btn btn-primary rounded-0" href="/member/login"><?= isset($login) && $login ? 'マイページ' :  'ログイン'?></a></div>
     </div>
 </div>

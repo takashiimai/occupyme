@@ -60,7 +60,7 @@
             </div>
 
 <?php if (!isset($login) || !$login): ?>
-            <div class="row my-5">
+            <div class="row my-5" style="max-height: 200px !important;">
                 <div class="col-6 offset-lg-1 col-lg-4">
 <?php include "ad/adsense_no1.php" ?>
                 </div>

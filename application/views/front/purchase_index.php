@@ -77,6 +77,10 @@
                     3. アフィリエイト用リンクタグ経由でオリジナルグッズが販売されますと成果報酬となります。なお、リンク会員の場合、成果報酬は10,000円となります。
                 </div>
             </div>
+
+            <div class="text-center mb-5">
+<?php include "ad/adsense_no1.php" ?>
+            </div>
         </div>
         <div class="col-12 col-lg-2">
 <?php include "ad/adsense_no1.php" ?>

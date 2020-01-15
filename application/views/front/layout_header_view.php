@@ -1,7 +1,10 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-6 text-left px-0"><a href="/top"><img src="/images/occuptme.png"></a></div>
-        <div class="col-6 text-right px-0"><a class="btn btn-primary rounded-0" href="/member/login"><?= isset($login) && $login ? 'マイページ' :  'ログイン'?></a></div>
+        <div class="col-1 text-left px-0"><a href="/top"><img class="img-fluid" src="/images/occuptme.png"></a></div>
+        <div class="col-10 text-center">
+<?php include "ad/adsense_no1.php"; ?>
+        </div>
+        <div class="col-1 text-right px-0"><a class="btn btn-primary rounded-0" href="/member/login"><?= isset($login) && $login ? 'マイページ' :  'ログイン'?></a></div>
     </div>
 </div>
 

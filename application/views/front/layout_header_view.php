@@ -1,6 +1,6 @@
 <style>
-    .adsense .infeed {
-        height: 120px;
+    .adsense .adsbygoogle {
+        height: 150px;
     }
 </style>
 <div class="container-fluid adsense">

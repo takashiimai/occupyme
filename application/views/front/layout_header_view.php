@@ -1,6 +1,6 @@
 <style>
     .adsense .adsbygoogle {
-        height: 150px;
+        height: 150px !important;
     }
 </style>
 <div class="container-fluid adsense">

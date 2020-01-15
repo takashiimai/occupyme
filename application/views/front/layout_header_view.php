@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" style="max-height: 100px; height: 100px;">
     <div class="row">
         <div class="col-1 text-left px-0"><a href="/top"><img class="img-fluid" src="/images/occuptme.png"></a></div>
         <div class="col-10 text-center">

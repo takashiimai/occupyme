@@ -20,7 +20,7 @@ class Lp_model extends FRONT_Model {
         $this->load->model('db/db_access_model');
 
         $affiliate_auth = $_SERVER['QUERY_STRING'];
-        if (!preg_match('/^[a-zA-Z0-9]{32}$/', $affiliate_auth)) {
+        if (!preg_match('/^[a-zA-Z0-9]+$/', $affiliate_auth)) {
             $affiliate_auth = '';
             $this->session->unset_userdata('affiliate_auth');
         } else {

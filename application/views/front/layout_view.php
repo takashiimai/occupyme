@@ -45,11 +45,9 @@
 
 <script>
     jQuery(window).load(function() {
-        setInterval(function() {
-            jQuery('ins.adsbygoogle').each(function() {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            });
-        }, 100);
+        jQuery('ins.adsbygoogle').each(function() {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        });
     });
 </script>
 <?php endif; ?>
